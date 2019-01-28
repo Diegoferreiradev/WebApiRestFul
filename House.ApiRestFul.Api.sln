@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comum", "Comum", "{FFB90C94
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House.Comum.Repositorios.Interfaces", "House.Comum.Repositorios.Interfaces\House.Comum.Repositorios.Interfaces.csproj", "{FECCA0BB-E60C-4ADC-8748-2C7304815906}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House.Comum.Repositorios.Entity", "House.Comum.Repositorios.Entity\House.Comum.Repositorios.Entity.csproj", "{C170684B-25EF-4F72-A84B-18B8A7C29D53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,12 +37,17 @@ Global
 		{FECCA0BB-E60C-4ADC-8748-2C7304815906}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECCA0BB-E60C-4ADC-8748-2C7304815906}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECCA0BB-E60C-4ADC-8748-2C7304815906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C170684B-25EF-4F72-A84B-18B8A7C29D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C170684B-25EF-4F72-A84B-18B8A7C29D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C170684B-25EF-4F72-A84B-18B8A7C29D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C170684B-25EF-4F72-A84B-18B8A7C29D53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FECCA0BB-E60C-4ADC-8748-2C7304815906} = {FFB90C94-FBC7-4610-BDB7-F5E75CE73AD6}
+		{C170684B-25EF-4F72-A84B-18B8A7C29D53} = {FFB90C94-FBC7-4610-BDB7-F5E75CE73AD6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C1A78030-CE98-4290-83D6-BFE1D6116668}
