@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House.ApiRestFul.Api", "House.ApiRestFul.Api\House.ApiRestFul.Api.csproj", "{E17833E8-FCF6-4FF9-B9B7-CB8DECD76734}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House.ApiRestFul.Dominio", "House.ApiRestFul.Dominio\House.ApiRestFul.Dominio.csproj", "{FD05C5BD-3B3F-47CC-99A1-58B9D31D7471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "House.ApiRestFul.AcessoDados.Entity", "House.ApiRestFul.AcessoDados.Entity\House.ApiRestFul.AcessoDados.Entity.csproj", "{FE123499-7123-457A-BAC4-D64D0EE9D7E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E17833E8-FCF6-4FF9-B9B7-CB8DECD76734}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E17833E8-FCF6-4FF9-B9B7-CB8DECD76734}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E17833E8-FCF6-4FF9-B9B7-CB8DECD76734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD05C5BD-3B3F-47CC-99A1-58B9D31D7471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD05C5BD-3B3F-47CC-99A1-58B9D31D7471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD05C5BD-3B3F-47CC-99A1-58B9D31D7471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD05C5BD-3B3F-47CC-99A1-58B9D31D7471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE123499-7123-457A-BAC4-D64D0EE9D7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE123499-7123-457A-BAC4-D64D0EE9D7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE123499-7123-457A-BAC4-D64D0EE9D7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE123499-7123-457A-BAC4-D64D0EE9D7E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
