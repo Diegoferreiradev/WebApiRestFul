@@ -3,10 +3,7 @@ using House.ApiRestFul.Dominio;
 using House.ApiRestFul.Repositorios.Entity;
 using House.Comum.Repositorios.Interfaces;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace House.ApiRestFul.Api.Controllers
