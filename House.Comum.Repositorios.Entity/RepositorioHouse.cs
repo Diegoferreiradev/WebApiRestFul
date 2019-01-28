@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace House.Comum.Repositorios.Entity
 {
-    public class RepositorioHouse<TDominio, TChave> : IRepositorioHouse<TDominio, TChave>
+    public abstract class RepositorioHouse<TDominio, TChave> : IRepositorioHouse<TDominio, TChave>
         where TDominio : class
     {
         protected DbContext _context;

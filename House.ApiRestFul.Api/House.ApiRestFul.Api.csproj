@@ -45,6 +45,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -161,6 +167,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\AlunosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -251,6 +258,28 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\House.ApiRestFul.AcessoDados.Entity\House.ApiRestFul.AcessoDados.Entity.csproj">
+      <Project>{fe123499-7123-457a-bac4-d64d0ee9d7e8}</Project>
+      <Name>House.ApiRestFul.AcessoDados.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\House.ApiRestFul.Dominio\House.ApiRestFul.Dominio.csproj">
+      <Project>{fd05c5bd-3b3f-47cc-99a1-58b9d31d7471}</Project>
+      <Name>House.ApiRestFul.Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\House.ApiRestFul.Repositorios.Entity\House.ApiRestFul.Repositorios.Entity.csproj">
+      <Project>{f3c06eb1-f4bf-4ca7-ab61-1a72bda1ff32}</Project>
+      <Name>House.ApiRestFul.Repositorios.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\House.Comum.Repositorios.Entity\House.Comum.Repositorios.Entity.csproj">
+      <Project>{c170684b-25ef-4f72-a84b-18b8a7c29d53}</Project>
+      <Name>House.Comum.Repositorios.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\House.Comum.Repositorios.Interfaces\House.Comum.Repositorios.Interfaces.csproj">
+      <Project>{fecca0bb-e60c-4adc-8748-2c7304815906}</Project>
+      <Name>House.Comum.Repositorios.Interfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
