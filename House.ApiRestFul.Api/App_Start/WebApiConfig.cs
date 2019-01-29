@@ -1,4 +1,5 @@
-﻿using House.ApiRestFul.Api.Formatters;
+﻿using House.ApiRestFul.Api.Filters;
+using House.ApiRestFul.Api.Formatters;
 using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,8 @@ namespace House.ApiRestFul.Api
                 NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore
             };
             config.Formatters.Add(new CsvMediaTypeFormatter());
+
+            config.Filters.Add(new FillResponseWithHATEOASAttribute());
 
             // Web API routes
             config.MapHttpAttributeRoutes();

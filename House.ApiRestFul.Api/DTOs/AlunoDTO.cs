@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using House.ApiRestFul.Api.HATEOAS;
+using System.ComponentModel.DataAnnotations;
 
 namespace House.ApiRestFul.Api.DTOs
 {
-    public class AlunoDTO
+    public class AlunoDTO : RestResource
     {
         public int Id { get; set; }
 
